@@ -1,0 +1,185 @@
+* {
+    font-family: "Popins", sans-serif;
+
+    box-sizing: border-box;
+
+}
+
+้html {
+    height: 100%;
+}
+
+
+body {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: none;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://cdn.pixabay.com/photo/2018/03/29/19/34/northern-lights-3273425_1280.jpg);
+    flex-direction: column;
+    margin-top: 10%;
+
+}
+
+.parent {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    align-items: flex-start;
+    margin: 3% 5% 10% 5%;
+
+}
+
+
+.box1 img {
+    width: 440px;
+
+}
+
+.box1 {}
+
+.hdd {
+    font-weight: 800;
+
+
+    white-space: nowrap;
+    text-transform: capitalize;
+    margin: 0;
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    line-height: 62px;
+}
+
+
+.box1,
+.box2 {
+    margin: 0 10px 0 10px;
+    display: inline;
+    color: white;
+}
+
+
+.box2 {
+    padding: 0;
+
+}
+
+
+.price {
+    color: rgb(211, 211, 211);
+
+
+    max-width: 320px;
+    line-height: 23px;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: line-through;
+    display: inline;
+}
+
+.price1 {
+    color: rgb(255, 255, 255);
+
+    max-width: 320px;
+    line-height: 23px;
+    font-size: 28px;
+    font-weight: 600;
+
+    display: inline;
+}
+
+
+.box3 {
+    margin-top: 20px;
+
+}
+
+.roro {
+    font-weight: 500;
+    line-height: 33px;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    margin-top: 110px; 
+}
+.roro1 {
+    font-weight: 500;
+    line-height: 33px;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    margin-top: 140px; 
+}
+.roro2 {
+    font-weight: 500;
+    line-height: 33px;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    margin-top: 170px; 
+}
+.roro3 {
+    font-weight: 500;
+    line-height: 33px;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    margin-top: 110px; 
+}
+
+.roro4 {
+    font-weight: 500;
+    line-height: 33px;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    margin-top: 170px; 
+}
+.roro5 {
+    font-weight: 500;
+    line-height: 33px;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    margin-top: 200px; 
+}
+.roro6 {
+    font-weight: 500;
+    line-height: 33px;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    margin-top: 190px; 
+}
+
+
+
+
+.add {
+    border: none;
+    outline: none;
+    background-color: #ffc40b;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    color: white;
+    font-weight: 600;
+    font-size: 16.5px;
+    margin-top: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+
+
+.add:hover {
+    transform: translateY(-4px);
+}
+
+.back {
+    font-weight: 600;
+    font-size: 24px;
+    text-transform: uppercase;
+    
+    
+}
+

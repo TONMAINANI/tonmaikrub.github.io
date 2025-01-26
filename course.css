@@ -1,0 +1,165 @@
+* {
+    font-family: "Popins", sans-serif;
+
+    box-sizing: border-box;
+
+}
+
+
+body {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(https://cdn.pixabay.com/photo/2018/03/29/19/34/northern-lights-3273425_1280.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+}
+
+.menu-children a img {
+    height: auto;
+    margin: 10px;
+    /* border-radius: 5px; */
+    width: 300px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+
+.menu-children {
+    background-color: #ffffff;
+    margin-top: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 450px;
+    position: relative;
+}
+
+.caption {
+    color: black;
+
+    padding-left: 20px;
+    padding-right: 20px;
+
+    max-width: 320px;
+    line-height: 23px;
+    font-size: 18px;
+
+}
+
+.caption1 {
+    color: black;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 40px;
+    max-width: 320px;
+    line-height: 23px;
+    font-size: 18px;
+
+}
+
+
+.menu-children:hover {
+    transform: translateY(-2px);
+}
+
+
+.course {
+    margin-bottom: 10%;
+    margin-top: 7%;
+}
+
+.price {
+    color: rgba(0, 0, 0, 0.562);
+
+    padding-bottom: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    max-width: 320px;
+    line-height: 23px;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: line-through;
+    display: inline;
+}
+
+.price1 {
+    color: rgb(255, 208, 0);
+    padding-top: 3px;
+    padding-left: px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    max-width: 320px;
+    line-height: 23px;
+    font-size: 17px;
+    font-weight: 600;
+
+    display: inline;
+}
+
+.menu-parent {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 40px;
+    width: 1300px;
+
+    justify-content: center;
+    margin-top: 3%;
+    height: auto;
+    align-items: center;
+
+}
+
+.sale {
+    color: white;
+    background-color: gold;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    width: 47px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    display: flex;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.katoon {
+    width: 200px;
+    position: absolute;
+    top: -150px;
+    right: -35px;
+}
+
+.num li {
+    margin: 0 5px;
+}
+
+.num a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: 600;
+}
+
+.num {
+    display: flex;
+    padding: 0;
+    margin-bottom: 5%;
+    list-style: none;
+}
+
+.num .at a{
+    background-color: #ffc107;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+}
+
